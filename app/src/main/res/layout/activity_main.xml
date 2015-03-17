@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/taiwan"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="20">
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="100"></LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="30"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button_taipei"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="타이페이"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#30000000"
+            android:color="#FAFAD2"
+            android:singleLine="true" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50px"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_yelu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="예류"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#30000000"
+            android:color="#FAFAD2"
+            android:singleLine="true" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50px"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_spun"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="스펀"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#30000000"
+            android:color="#FAFAD2"
+            android:enabled="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50px"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_ji"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="지우펀"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#30000000"
+            android:color="#FAFAD2"
+            android:enabled="false" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_height="50px"
+                android:layout_weight="20" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_hwa"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="화련"
+            android:textSize="60px"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#30000000"
+            android:color="#FAFAD2"
+            android:enabled="false" />
+
+        ></LinearLayout>
+</LinearLayout>
+
