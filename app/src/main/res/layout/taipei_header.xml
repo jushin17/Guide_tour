@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="#00000000">
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
@@ -33,6 +33,7 @@
                 android:textColor="#FFFFFF"
                 android:background="#30000000"
                 android:singleLine="true"
+                android:onClick="onClick"
                 android:id="@+id/button_tai_map" />
         </LinearLayout>
         <LinearLayout
@@ -52,6 +53,7 @@
                 android:textColor="#FFFFFF"
                 android:background="#30000000"
                 android:singleLine="true"
+                android:onClick="onClick"
                 android:id="@+id/button_tai_info" />
         </LinearLayout>
         <LinearLayout

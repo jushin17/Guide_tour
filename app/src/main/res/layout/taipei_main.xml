@@ -11,8 +11,8 @@
         android:layout_weight="1"
         class="com.example.shinjiung.guide_tour.TaipeiHeadFragment"/>
 
-    <fragment
-        android:id="@+id/taipei_map"
+    <FrameLayout
+        android:id="@+id/taipei_map_web"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
         android:layout_gravity="top"
@@ -20,6 +20,6 @@
         android:layout_marginLeft="20px"
         android:layout_marginRight="20px"
         android:layout_marginBottom="20px"
-        class="com.example.shinjiung.guide_tour.TaipeiMapFragment"/>
+        class="com.example.shinjiung.guide_tour.TaipeiInfoFragment"/>
 
 </LinearLayout>
