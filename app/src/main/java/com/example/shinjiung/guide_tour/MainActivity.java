@@ -15,11 +15,23 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        // move to Taipei section
         Button taipei = (Button) findViewById(R.id.button_taipei);
         taipei.setOnClickListener(new OnClickListener() {
             public void onClick(View v) {    //onClick �Լ�.
 
                 Intent intent = new Intent(MainActivity.this, TaipeiActivity.class);    //MainActivity ��(this) sub�� .
+                startActivity(intent);
+            }
+        });
+
+        // move to Taipei section
+        Button yehliu = (Button) findViewById(R.id.button_yehliu);
+        yehliu.setOnClickListener(new OnClickListener() {
+            public void onClick(View v) {    //onClick �Լ�.
+
+                Intent intent = new Intent(MainActivity.this, YehliuActivity.class);    //MainActivity ��(this) sub�� .
                 startActivity(intent);
             }
         });

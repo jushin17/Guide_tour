@@ -48,6 +48,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".YehliuActivity">
+            <intent-filter>
+                <action android:name="com.example.shinjiung.guide_tour.YehliuActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

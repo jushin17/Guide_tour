@@ -39,6 +39,7 @@ public class YehliuActivity extends FragmentActivity {
 
         }
     }
+    // when people go back to main activity, notice prior city
     @Override
     protected void onDestroy() {
         super.onDestroy();

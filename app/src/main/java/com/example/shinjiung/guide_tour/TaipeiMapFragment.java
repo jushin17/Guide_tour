@@ -18,9 +18,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
  */
 public class TaipeiMapFragment extends SupportMapFragment {
     GoogleMap mGoogleMap;
-    LatLng loc = new LatLng(25.034185, 121.564649); // 위치 좌표 설정
-    MarkerOptions marker = new MarkerOptions().position(loc); // 구글맵에 기본마커 표시
-    CameraPosition cp = new CameraPosition.Builder().target((loc)).zoom(16).build();
+    LatLng loc = new LatLng(25.034185, 121.564649); // set Latitude , longitude
+    MarkerOptions marker = new MarkerOptions().position(loc); // mark default marker at google map
+    CameraPosition cp = new CameraPosition.Builder().target((loc)).zoom(16).build(); // set camera zoom , state
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View v = super.onCreateView(inflater, container, savedInstanceState);

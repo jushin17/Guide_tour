@@ -2,15 +2,12 @@ package com.example.shinjiung.guide_tour;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.Window;
-import com.google.android.gms.maps.*;
-import com.google.android.gms.maps.model.*;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.LayoutInflater;
-import android.support.v4.app.FragmentManager;
 /**
  * Created by shinjiung on 3/13/15.
+ * activate upper fragment for use button
  */
 public class TaipeiHeadFragment extends Fragment {
 

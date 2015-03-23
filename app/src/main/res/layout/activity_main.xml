@@ -45,7 +45,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/button_yelu"
+            android:id="@+id/button_yehliu"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="#30000000"

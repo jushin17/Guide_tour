@@ -29,7 +29,7 @@ public class TaipeiInfoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.taipei_info, container, false);
 
-
+        
         WebView mWebView = (WebView) view.findViewById(R.id.taipei_web);
         mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.loadUrl("http://ko.m.wikipedia.org/wiki/타이페이_시");
