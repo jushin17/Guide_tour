@@ -16,9 +16,9 @@ import com.google.android.gms.maps.model.MarkerOptions;
 /**
  * Created by shinjiung on 3/13/15.
  */
-public class TaipeiMapFragment extends SupportMapFragment {
+public class YehliuMapFragment extends SupportMapFragment {
     GoogleMap mGoogleMap;
-    LatLng loc = new LatLng(25.034185, 121.564649); // 위치 좌표 설정
+    LatLng loc = new LatLng(25.206963, 121.691144); // 위치 좌표 설정
     MarkerOptions marker = new MarkerOptions().position(loc); // 구글맵에 기본마커 표시
     CameraPosition cp = new CameraPosition.Builder().target((loc)).zoom(16).build();
     @Override
